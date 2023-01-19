@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html>
+	<head>
+		<script src="scripts/jquery.min.js"></script>
+		<script src="scripts/bootstrap.min.js"></script>
+
+		<link href="styles/main.css" rel="stylesheet" type="text/css" />
+		<link href="styles/bootstrap.min.css" rel="stylesheet" type="text/css" />
+		<link href="styles/custom.css" rel="stylesheet" type="text/css" />
+
+		<script src="scripts/base_functions.js"></script>
+		<script src="scripts/cCoordinatesElements.js"></script>
+		<script src="scripts/cLineElements.js"></script>
+		<script src="scripts/cOtherElements.js"></script>
+		<script src="scripts/constants.js"></script>
+		<script src="scripts/00MapControls.js"></script>
+		<script src="scripts/01QuestObjectives.js"></script>
+		<script src="scripts/02MapDesign.js"></script>
+		<script src="scripts/03OLFigures.js"></script>
+		<script src="scripts/04Heroes.js"></script>
+		<script src="scripts/08Familiers.js"></script>
+		<script src="scripts/10Tokens.js"></script>
+		<script src="scripts/main.js"></script>
+		<script src="scripts/Base64.js"></script>
+
+	</head>
+	<body>
+		<div role="tabpanel">
+			<ul class="nav nav-tabs" role="tablist" id="tabs">
+				<li role="presentation" class="active map-icon-container"><a href="#map" aria-controls="home" role="tab" data-toggle="tab" onclick="populate();">Map</a></li>
+				<li role="presentation"><a href="#quest-objectives" aria-controls="home" role="tab" data-toggle="tab"><img src="images/StaticSite/mQuest.png" height="64px"/></a></li>
+				<li role="presentation"><a href="#map-controls" aria-controls="home" role="tab" data-toggle="tab"><img src="images/StaticSite/mMapDesign.png" height="64px"/></a></li>
+				<li role="presentation"><a href="#map-tokens" aria-controls="settings" role="tab" data-toggle="tab"><img src="images/StaticSite/mMapOverlay.png"/></a></li>
+				<li role="presentation"><a href="#monsters" aria-controls="profile" role="tab" data-toggle="tab"><img src="images/StaticSite/mOLFigures.png"/></a></li>
+				<li role="presentation"><a href="#hero1" aria-controls="messages" role="tab" data-toggle="tab"><img src="images/StaticSite/mHeroNotSet.png"/></a></li>
+				<li role="presentation"><a href="#hero2" aria-controls="messages" role="tab" data-toggle="tab"><img src="images/StaticSite/mHeroNotSet.png"/></a></li>
+				<li role="presentation"><a href="#hero3" aria-controls="messages" role="tab" data-toggle="tab"><img src="images/StaticSite/mHeroNotSet.png"/></a></li>
+				<li role="presentation"><a href="#hero4" aria-controls="messages" role="tab" data-toggle="tab"><img src="images/StaticSite/mHeroNotSet.png"/></a></li>
+				<li role="presentation" class="no-border-radius"><a href="#familiars" aria-controls="messages" role="tab" data-toggle="tab""><img src="images/StaticSite/mFamiliars.png"/></a></li>
+			</ul>
+
+			<div class="top-controls"></div>
+			<div class="tab-content" id="content">
+				<div role="tabpanel" class="active" id="map">
+					<div class="background">
+						<div class="map"></div>
+						<div class="grid"></div>
+						<div class="figures"></div>
+					</div>
+				</div>
+				<div role="tabpanel" class="tab-pane" id="quest-objectives"></div>
+				<div role="tabpanel" class="tab-pane" id="map-controls"></div>
+				<div role="tabpanel" class="tab-pane" id="map-tokens"></div>
+				<div role="tabpanel" class="tab-pane" id="monsters"></div>
+				<div role="tabpanel" class="tab-pane" id="hero1"></div>
+				<div role="tabpanel" class="tab-pane" id="hero2"></div>
+				<div role="tabpanel" class="tab-pane" id="hero3"></div>
+				<div role="tabpanel" class="tab-pane" id="hero4"></div>
+				<div role="tabpanel" class="tab-pane" id="familiars"></div>
+					<!-- empty -->
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
