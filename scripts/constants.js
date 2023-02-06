@@ -91,7 +91,7 @@ var ImagePathLevel = "";
 
 //name,cols width, row height, width delta, height delta, expansion
 MAP_TILES_RAW = [
-	[1, 'a1', 2, 5, 68, 39, bg],
+	[1, '01', 2, 5, 68, 39, bg],
 	[2, 'a2', 2, 5, 68, 39, bg],
 	[3, 'a3', 2, 5, 68, 39, bg],
 	[4, 'a4', 2, 5, 68, 39, bg],
