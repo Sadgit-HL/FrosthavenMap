@@ -77,11 +77,11 @@ for (var i = 0; i < EXPANSIONS.length; i++) {
 		EXPANSION_GROUPS[EXPANSIONS[i][1]] = [];
 	}
 	EXPANSION_GROUPS[EXPANSIONS[i][1]].push(EXPANSIONS[i][0]);
-	EXPANSION_PATHS[EXPANSIONS[i][0]] = '_expansion/' + EXPANSIONS[i][2] + '/';
+	EXPANSION_PATHS[EXPANSIONS[i][0]] = 'expansion/' + EXPANSIONS[i][2] + '/';
 }
 
-var ImagePathLevelImage = "_common/level_cards/";
-var ImagePathLevelFigureToken = "_common/level_cards/";
+var ImagePathLevelImage = "common/level_cards/";
+var ImagePathLevelFigureToken = "common/level_cards/";
 
 var CurrentLevel = 0; // values 0 to 7
 var ALL_LEVELS = 'Lvl0 Lvl1 Lvl2 Lvl3 Lvl4 Lvl5 Lvl6 Lvl7'
@@ -273,8 +273,8 @@ MOVABLE_TOKENS_LIST = Object.assign(TMP_LIST1, TMP_LIST2);
 
 // -----------------------------------------------
 
-var ImagePathConditionImage = "_common/conditions_tokens/";
-var ImagePathConditionFigureToken = "_common/conditions_tokens/";
+var ImagePathConditionImage = "common/conditions_tokens/";
+var ImagePathConditionFigureToken = "common/conditions_tokens/";
 CONDITIONS_INITIAL = [
 	[1, 'Bane', true, false],	
 	[2, 'Brittle', true, false],
