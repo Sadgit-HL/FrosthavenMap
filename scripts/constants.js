@@ -1,5 +1,5 @@
 var MAPVERSION = "1.1.0";
-var MAPGAME = "GloomHaven";
+var MAPGAME = "FrostHaven";
 
 var mapWidth = 40;
 var mapHeight = 50;
@@ -12,7 +12,7 @@ var cellType = "HEX"; // SQUARE - HEX
 
 var defaultConfig = 'e30=';
 
-var ImagePathRoot = "images/";
+var ImagePathRoot = "./images/";
 
 //Custom Inputs
 var MAX_CustomInputs = 5
