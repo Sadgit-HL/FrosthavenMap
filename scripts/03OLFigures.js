@@ -54,7 +54,7 @@ function CreateZone_Monsters() {
 	container.append('<div class="monsters-relicscards"></div>');
 	container.append('<div class="monsters-tokenscards"></div>');
 	html.append(container);
-	html.append('<button type="button" class="btn btn-success" aria-expanded="false" onclick="AddLine_Monster();">Add monster</button>');
+	html.append('<button type="button" class="btn btn-success" aria-expanded="false" onclick="AddLine_Monster();">Add</button>');
 	//initialize LineClass
 	monsterLine.NameListValues = Create_MonsterListValues();
 	monsterLine.RelicCommonImageContainer = "monsters-relicscards";
@@ -194,10 +194,10 @@ function Reset_MonsterImages(RowElement) {
 function CreateZone_Lieutenants() {
 	var html = $('<div>');
 	var container = $('<div>').addClass('lieutenant-container');
-	container.append('<h1>Bosses</h1>');
+	container.append('<h1>Bosses and Allies</h1>');
 	// non global -> line by line
 	html.append(container);
-	html.append('<button type="button" class="btn btn-success" aria-expanded="false" onclick="AddLine_Lieutenant();">Add boss</button>');
+	html.append('<button type="button" class="btn btn-success" aria-expanded="false" onclick="AddLine_Lieutenant();">Add</button>');
 	//initialize LineClass
 	lieutenantLine.NameListValues = Create_LieutenantListValues();
 

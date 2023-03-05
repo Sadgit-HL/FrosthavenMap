@@ -37,11 +37,11 @@ function ResetWindow_Familiars(FromPreFilledMaps) {
 function CreateZone_Familiars() {
 	var html = $('<div>');
 	var container = $('<div>').addClass('familiar-container');
-	container.append('<h1>Summons</h1>');
+	container.append('<h1>Elements - Scenario Aids - Objectives</h1>');
 	//container.append('<div class="familiars-cards"></div>');
 	//container.append('<div class="familiars-tokenscards"></div>');
 	html.append(container);
-	html.append('<button type="button" class="btn btn-success" aria-expanded="false" onclick="AddLine_Familiar();">Add Summons</button>');
+	html.append('<button type="button" class="btn btn-success" aria-expanded="false" onclick="AddLine_Familiar();">Add</button>');
 	//initialize LineClass
 	familiarLine.NameListValues = Create_FamiliarListValues();
 	//familiarLine.TokenCommonImageContainer = "familiars-tokenscards";
@@ -137,9 +137,9 @@ function UnSet_Familiar(element) {
 function CreateZone_Villagers() {
 	var html = $('<div>');
 	var container = $('<div>').addClass('villagers-container');
-	container.append('<h1>Custom Summons</h1>');
+	container.append('<h1>Summons</h1>');
 	html.append(container);
-	html.append('<button type="button" class="btn btn-success" aria-expanded="false" onclick="AddLine_Villager();">Add Custom Summons</button>');
+	html.append('<button type="button" class="btn btn-success" aria-expanded="false" onclick="AddLine_Villager();">Add</button>');
 	//initialize LineClass
 	villagerLine.NameListValues = Create_VillagerListValues();
 
