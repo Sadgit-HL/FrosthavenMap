@@ -167,6 +167,7 @@ MAP_TILES_RAW = [
 [74, '16-B', 2, 5, 68, 39, bg],
 [75, '16-C', 2, 5, 68, 39, bg],
 [76, '16-D', 2, 5, 68, 39, bg],
+[77, 'Test1', 2, 5, 68, 39, bg],
 
 ];
 MAP_TILES_LIST = FromRAWToLIST(MAP_TILES_RAW);
