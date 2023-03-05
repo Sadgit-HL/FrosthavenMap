@@ -91,7 +91,7 @@ var ImagePathLevel = "";
 
 //name,cols width, row height, width delta, height delta, expansion
 MAP_TILES_RAW = [
-[1, '01-a', 2, 5, 68, 39, bg],
+[1, '01-A', 2, 5, 68, 39, bg],
 [2, '01-B', 2, 5, 68, 39, bg],
 [3, '01-C', 2, 5, 68, 39, bg],
 [4, '01-D', 2, 5, 68, 39, bg],
@@ -167,7 +167,7 @@ MAP_TILES_RAW = [
 [74, '16-B', 2, 5, 68, 39, bg],
 [75, '16-C', 2, 5, 68, 39, bg],
 [76, '16-D', 2, 5, 68, 39, bg],
-[77, 'Test1', 2, 5, 68, 39, bg],
+
 
 ];
 MAP_TILES_LIST = FromRAWToLIST(MAP_TILES_RAW);
