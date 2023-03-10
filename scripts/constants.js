@@ -292,6 +292,8 @@ CONDITIONS_INITIAL = [
 	[14, 'Red Guard', true, false],
 	[15, 'Hatchet', true, false],
   	[16, 'Doomstalker', true, false],
+  	[17, 'Geminate Melee', true, false],  	
+	[18, 'Geminate Range', true, false],
 
 ];
 
