@@ -230,8 +230,6 @@ DOORS_LIST = FromRAWToLIST(DOORS_RAW);
 // -----------------------------------------------
 
 MOVABLE_TOKENS1_RAW = [
-	[1, 'Coin1', 1, 1, 45, 39, bg],
-	[2, 'Coin5', 1, 1, 45, 39, bg]
 ];
 TMP_LIST1 = FromRAWToLIST(MOVABLE_TOKENS1_RAW);
 var TempObject = {};
@@ -266,7 +264,8 @@ MOVABLE_TOKENS2_RAW = [
 	[24, 'ob supply shelf 2', 1, 1, 46, 39, bg],
 	[25, 'ob tree 3', 1, 1, 46, 39, bg],
 	[26, 'scenario aid', 1, 1, 28, 25, bg],
-
+	[27, 'loot', 1, 1, 40, 32, bg],
+	
 ];
 TMP_LIST2 = FromRAWToLIST(MOVABLE_TOKENS2_RAW);
 MOVABLE_TOKENS_LIST = Object.assign(TMP_LIST1, TMP_LIST2);
@@ -579,6 +578,7 @@ FAMILIARS_RAW = [
 	[4, 'Fire', 1, 1, 41, 35, bg, false],
 	[5, 'Ice', 1, 1, 41, 35, bg, false],
 	[6, 'Light', 1, 1, 41, 35, bg, false],
+	[18, 'Treasure', 1, 1, 46, 39, bg],
 	[7, 'Scenario Aid', 1, 1, 30, 25, bg],	
 	[8, 'oj altar', 1, 1, 46, 39, bg],
 	[9, 'oj barrel', 1, 1, 46, 39, bg],
