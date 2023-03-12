@@ -31,7 +31,7 @@ function ResetWindow_MapTokens(FromPreFilledMaps) {
 function CreateZone_MovableMapTokens() {
 	var html = $('<div>');
 	var container = $('<div>').addClass('maptoken-container');
-	container.append('<h1>Obstacles (ob) - Traps (tr) - Pressure Plates (pp)</h1>');
+	container.append('<h1>Loot - Obstacles (ob) - Traps (tr) - Pressure Plates (pp)</h1>');
 	html.append(container);
 	html.append('<button type="button" class="btn btn-success" aria-expanded="false" onclick="AddLine_MovableMapTokens();">Add Map Token</button>');
 	//initialize LineClass

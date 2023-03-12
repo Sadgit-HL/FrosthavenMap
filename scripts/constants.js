@@ -263,7 +263,7 @@ MOVABLE_TOKENS2_RAW = [
 	[23, 'ob stalagmites', 1, 1, 46, 39, bg],
 	[24, 'ob supply shelf 2', 1, 1, 46, 39, bg],
 	[25, 'ob tree 3', 1, 1, 46, 39, bg],
-	[26, 'loot', 1, 1, 40, 32, bg],
+	[26, 'loot', 1, 1, 30, 30, bg],
 	
 ];
 TMP_LIST2 = FromRAWToLIST(MOVABLE_TOKENS2_RAW);
