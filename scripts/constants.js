@@ -264,6 +264,8 @@ MOVABLE_TOKENS2_RAW = [
 	[24, 'ob supply shelf 2', 1, 1, 46, 39, bg],
 	[25, 'ob tree 3', 1, 1, 46, 39, bg],
 	[26, 'loot', 1, 1, 30, 30, bg],
+	[27, 'shadow', 1, 1, 30, 30, bg],
+
 	
 ];
 TMP_LIST2 = FromRAWToLIST(MOVABLE_TOKENS2_RAW);
@@ -292,6 +294,7 @@ CONDITIONS_INITIAL = [
   	[16, 'Doomstalker', true, false],
   	[17, 'Geminate Melee', true, false],  	
 	[18, 'Geminate Range', true, false],
+	[19, 'Deathwalker', true, false],
 
 ];
 
