@@ -252,7 +252,7 @@ MOVABLE_TOKENS2_RAW = [
 	[12, 'ob debris', 1, 1, 46, 39, bg],
 	[13, 'ob debris 2', 1, 1, 46, 39, bg],
 	[14, 'ob glowing orb', 1, 1, 46, 39, bg],
-	[28, 'ob ice crystal', 1, 1, 46, 39, bg],
+	[28, 'ob ice crystal 3', 1, 1, 46, 39, bg],
 	[15, 'ob ice pillar', 1, 1, 46, 39, bg],
 	[16, 'ob mast', 1, 1, 46, 39, bg],
 	[17, 'ob metal cabinet', 1, 1, 46, 39, bg],
