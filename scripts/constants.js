@@ -593,6 +593,7 @@ FAMILIARS_RAW = [
 	[15, 'oj debris 2', 1, 1, 46, 39, bg],
 	[16, 'oj glowing orb', 1, 1, 46, 39, bg],
 	[17, 'oj ice', 1, 1, 46, 39, bg],
+	[18, 'oj ice pillar', 1, 1, 46, 39, bg],
 ];
 
 FAMILIARS_LIST = FromRAWToLIST(FAMILIARS_RAW);
