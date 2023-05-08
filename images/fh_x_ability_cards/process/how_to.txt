@@ -1,0 +1,6 @@
+1. resize all images to 825 x 1125
+2. crop X: 50px/725px; Y:50px/1025px
+3. riot to 400 X 600px
+4. rename withz table in PBF sheet
+
+  
