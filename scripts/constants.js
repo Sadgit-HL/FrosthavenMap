@@ -581,7 +581,6 @@ FAMILIARS_RAW = [
 	[4, 'Fire', 1, 1, 41, 35, bg, false],
 	[5, 'Ice', 1, 1, 41, 35, bg, false],
 	[6, 'Light', 1, 1, 41, 35, bg, false],
-	[19, 'Treasure', 1, 1, 46, 39, bg],
 	[7, 'Scenario Aid', 1, 1, 30, 25, bg],	
 	[8, 'oj altar', 1, 1, 46, 39, bg],
 	[9, 'oj barrel', 1, 1, 46, 39, bg],
@@ -594,6 +593,8 @@ FAMILIARS_RAW = [
 	[16, 'oj glowing orb', 1, 1, 46, 39, bg],
 	[17, 'oj ice', 1, 1, 46, 39, bg],
 	[18, 'oj ice pillar', 1, 1, 46, 39, bg],
+	[19, 'Treasure', 1, 1, 46, 39, bg],
+	[20, 'tr trap', 1, 1, 46, 39, bg],
 ];
 
 FAMILIARS_LIST = FromRAWToLIST(FAMILIARS_RAW);
