@@ -348,7 +348,7 @@ var MONSTERS_RAW = [
 	[31, 'lurker wavethrower', 1, 1, 41, 35, bg, false, [dummy], false],
 	[32, 'night demon', 1, 1, 41, 35, bg, false, [dummy], false],
 	[33, 'ooze', 1, 1, 41, 35, bg, false, [dummy], false],
-	[34, 'piranha pig', 1, 1, 41, 35, bg, false, [dummy], false],
+	[34, 'pirnaha pig', 1, 1, 41, 35, bg, false, [dummy], false],
 	[35, 'polar bear', 1, 1, 41, 35, bg, false, [dummy], false],
 	[36, 'rending drake', 1, 1, 41, 35, bg, false, [dummy], false],
 	[37, 'robotic boltshooter', 1, 1, 41, 35, bg, false, [dummy], false],
