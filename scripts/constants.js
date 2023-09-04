@@ -595,6 +595,7 @@ FAMILIARS_RAW = [
 	[18, 'oj ice pillar', 1, 1, 46, 39, bg],
 	[19, 'Treasure', 1, 1, 46, 39, bg],
 	[20, 'tr trap', 1, 1, 46, 39, bg],
+	[21, 'ha lava', 1, 1, 46, 39, bg],
 ];
 
 FAMILIARS_LIST = FromRAWToLIST(FAMILIARS_RAW);
