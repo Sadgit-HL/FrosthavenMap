@@ -91,7 +91,6 @@ var ImagePathLevel = "";
 
 //name,cols width, row height, width delta, height delta, expansion
 MAP_TILES_RAW = [
-[1, '01-A', 2, 5, 68, 39, bg],
 [2, '01-B', 2, 5, 68, 39, bg],
 [3, '01-C', 2, 5, 68, 39, bg],
 [4, '01-D', 2, 5, 68, 39, bg],
@@ -167,7 +166,7 @@ MAP_TILES_RAW = [
 [74, '16-B', 2, 5, 68, 39, bg],
 [75, '16-C', 2, 5, 68, 39, bg],
 [76, '16-D', 2, 5, 68, 39, bg],
-
+[1, '01-A', 2, 5, 68, 39, bg],
 
 ];
 MAP_TILES_LIST = FromRAWToLIST(MAP_TILES_RAW);
@@ -183,7 +182,6 @@ ANGLES_LIST = [
 
 
 OVERLAYTILES_RAW = [
-	[1, 'co barrel', 1, 1, 46, 39, bg],
 	[2, 'co bookshelf 2', 1, 1, 46, 39, bg],
 	[3, 'co cave', 1, 1, 46, 39, bg],
 	[4, 'co cave 2', 1, 1, 46, 39, bg],
@@ -214,15 +212,17 @@ OVERLAYTILES_RAW = [
 	[29, 'di water', 1, 1, 46, 39, bg],
 	[30, 'di water 2', 1, 1, 46, 39, bg],
 	[31, 'di water 3', 1, 1, 46, 39, bg],
+	[1, 'co barrel', 1, 1, 46, 39, bg],
 
 ];
 OVERLAYTILES_LIST = FromRAWToLIST(OVERLAYTILES_RAW);
 
 DOORS_RAW = [
-	[1, 'do cave door', 1, 1, 46, 39, bg],
+
 	[2, 'do dungeon door', 1, 1, 46, 39, bg],
 	[3, 'do metal door', 1, 1, 46, 39, bg],
 	[4, 'do snow door', 1, 1, 46, 39, bg],
+	[1, 'do cave door', 1, 1, 46, 39, bg],
 
 ];
 DOORS_LIST = FromRAWToLIST(DOORS_RAW);
@@ -238,7 +238,7 @@ TempObject.title = "$SEPARATOR$";
 TMP_LIST1[TempObject.id] = TempObject;
 
 MOVABLE_TOKENS2_RAW = [
-	[1, 'tr bear trap', 1, 1, 46, 39, bg],
+
 	[2, 'tr poison trap', 1, 1, 46, 39, bg],
 	[3, 'tr spike pit trap', 1, 1, 46, 39, bg],
 	[4, 'pp pressure plate', 1, 1, 46, 39, bg],
@@ -266,7 +266,7 @@ MOVABLE_TOKENS2_RAW = [
 	[25, 'ob tree 3', 1, 1, 46, 39, bg],
 	[26, 'loot', 1, 1, 30, 30, bg],
 	[27, 'shadow', 1, 1, 30, 30, bg],
-
+	[1, 'tr bear trap', 1, 1, 46, 39, bg],
 	
 ];
 TMP_LIST2 = FromRAWToLIST(MOVABLE_TOKENS2_RAW);
@@ -277,7 +277,7 @@ MOVABLE_TOKENS_LIST = Object.assign(TMP_LIST1, TMP_LIST2);
 var ImagePathConditionImage = "common/conditions_tokens/";
 var ImagePathConditionFigureToken = "common/conditions_tokens/";
 CONDITIONS_INITIAL = [
-	[1, 'Bane', true, false],	
+
 	[2, 'Brittle', true, false],
 	[3, 'Disarm', true, false],
 	[4, 'Immobilize', true, false],
@@ -296,7 +296,7 @@ CONDITIONS_INITIAL = [
   	[17, 'Geminate Melee', true, false],  	
 	[18, 'Geminate Range', true, false],
 	[19, 'Deathwalker', true, false],
-
+	[1, 'Bane', true, false],
 ];
 
 var CONDITIONS = {};
@@ -315,7 +315,7 @@ var MinionSuffix = ' normal' //' minion';
 var dummy = 'dummy';
 
 var MONSTERS_RAW = [
-	[1, 'abael herder', 1, 1, 41, 35, bg, false, [dummy], false],
+
 	[2, 'abael scout', 1, 1, 41, 35, bg, false, [dummy], false],
 	[3, 'algox archer', 1, 1, 41, 35, bg, false, [dummy], false],
 	[4, 'algox guard', 1, 1, 41, 35, bg, false, [dummy], false],
@@ -363,6 +363,7 @@ var MONSTERS_RAW = [
 	[46, 'vermling priest', 1, 1, 41, 35, bg, false, [dummy], false],
 	[47, 'vermling scout', 1, 1, 41, 35, bg, false, [dummy], false],
 	[48, 'wind demon', 1, 1, 41, 35, bg, false, [dummy], false],
+	[1, 'abael herder', 1, 1, 41, 35, bg, false, [dummy], false],
 ];
 
 function getMonsterTraits(i) {
@@ -596,6 +597,7 @@ FAMILIARS_RAW = [
 	[19, 'Treasure', 1, 1, 46, 39, bg],
 	[20, 'tr trap', 1, 1, 46, 39, bg],
 	[21, 'ha lava', 1, 1, 46, 39, bg],
+	[22, 'oj tree 3', 1, 1, 46, 39, bg],
 ];
 
 FAMILIARS_LIST = FromRAWToLIST(FAMILIARS_RAW);
@@ -604,7 +606,6 @@ for (var i = 0; i < FAMILIARS_RAW.length; i++) {
 	OneItem = FAMILIARS_LIST[FAMILIARS_RAW[i][0]];
 	OneItem.hasBack = FAMILIARS_RAW[i][7];
 }
-
 
 // ------------------------------------------------------
 
