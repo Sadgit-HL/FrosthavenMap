@@ -297,6 +297,7 @@ CONDITIONS_INITIAL = [
 	[18, 'Geminate Range', true, false],
 	[19, 'Deathwalker', true, false],
 	[1, 'Bane', true, false],
+	[20, 'Safeguard', true, false],
 ];
 
 var CONDITIONS = {};
