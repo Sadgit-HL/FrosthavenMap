@@ -427,7 +427,7 @@ var HEROES_RAW = [
 	[4, 'Blinkblade', 1, 1, 41, 35, bg, , , dummy],
 	[5, 'Boneshaper', 1, 1, 41, 35, bg, , , dummy],
 	[6, 'Bladeswarm', 1, 1, 41, 35, bg, , , dummy],
-	[7, 'Bruiser, 1, 1, 41, 35, bg, , , dummy],
+	[7, 'Bruiser', 1, 1, 41, 35, bg, , , dummy],
 	[8, 'Cragheart', 1, 1, 41, 35, bg, , , dummy],
 	[9, 'Coral', 1, 1, 41, 35, bg, , , dummy],
 	[10, 'Deathwalker', 1, 1, 41, 35, bg, , , dummy],
