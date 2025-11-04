@@ -421,13 +421,13 @@ for (var i = 0; i < LIEUTENANTS_RAW.length; i++) {
 var MAX_Heroes = 4
 
 var HEROES_RAW = [
-	[1, 'Beast Tyrant', 1, 1, 41, 35, bg, , , dummy],
+	[1, 'Wildfury', 1, 1, 41, 35, bg, , , dummy],
 	[2, 'Banner Spear', 1, 1, 41, 35, bg, , , dummy],
 	[3, 'Berserker', 1, 1, 41, 35, bg, , , dummy],
 	[4, 'Blinkblade', 1, 1, 41, 35, bg, , , dummy],
 	[5, 'Boneshaper', 1, 1, 41, 35, bg, , , dummy],
 	[6, 'Bladeswarm', 1, 1, 41, 35, bg, , , dummy],
-	[7, 'Brute', 1, 1, 41, 35, bg, , , dummy],
+	[7, 'Bruiser, 1, 1, 41, 35, bg, , , dummy],
 	[8, 'Cragheart', 1, 1, 41, 35, bg, , , dummy],
 	[9, 'Coral', 1, 1, 41, 35, bg, , , dummy],
 	[10, 'Deathwalker', 1, 1, 41, 35, bg, , , dummy],
@@ -453,7 +453,7 @@ var HEROES_RAW = [
 	[30, 'Shards', 1, 1, 41, 35, bg, , , dummy],
 	[31, 'Snowflake', 1, 1, 41, 35, bg, , , dummy],
 	[32, 'Sawbones', 1, 1, 41, 35, bg, , , dummy],
-	[33, 'Scoundrel', 1, 1, 41, 35, bg, , , dummy],
+	[33, 'Silent Knife', 1, 1, 41, 35, bg, , , dummy],
 	[34, 'Soothsinger', 1, 1, 41, 35, bg, , , dummy],
 	[35, 'Spellweaver', 1, 1, 41, 35, bg, , , dummy],
 	[36, 'Summoner', 1, 1, 41, 35, bg, , , dummy],
@@ -461,6 +461,8 @@ var HEROES_RAW = [
 	[38, 'Sunkeeper', 1, 1, 41, 35, bg, , , dummy],
 	[39, 'Tinkerer', 1, 1, 41, 35, bg, , , dummy],
 	[40, 'Voidwarden', 1, 1, 41, 35, bg, , , dummy],
+	[41, 'Anaphi', 1, 1, 41, 35, bg, , , dummy],
+	[42, 'Satha', 1, 1, 41, 35, bg, , , dummy],
  ];
 
 HEROES_LIST = FromRAWToLIST(HEROES_RAW);
