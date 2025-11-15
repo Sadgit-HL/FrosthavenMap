@@ -433,7 +433,7 @@ var HEROES_RAW = [
 	[10, 'Deathwalker', 1, 1, 41, 35, bg, , , dummy],
 	[11, 'Kelp', 1, 1, 41, 35, bg, , , dummy],
 	[12, 'Demolitionist', 1, 1, 41, 35, bg, , , dummy],
-	[13, 'Diviner', 1, 1, 41, 35, bg, , , dummy],
+//	[13, 'Diviner', 1, 1, 41, 35, bg, , , dummy],
 	[14, 'Drifter', 1, 1, 41, 35, bg, , , dummy],
 	[15, 'Doomstalker', 1, 1, 41, 35, bg, , , dummy],
 	[16, 'Fist', 1, 1, 41, 35, bg, , , dummy],
