@@ -421,7 +421,6 @@ for (var i = 0; i < LIEUTENANTS_RAW.length; i++) {
 var MAX_Heroes = 4
 
 var HEROES_RAW = [
-	[41, 'Anaphi', 1, 1, 41, 35, bg, , , dummy],
 	[1, 'Wildfury', 1, 1, 41, 35, bg, , , dummy],
 	[2, 'Banner Spear', 1, 1, 41, 35, bg, , , dummy],
 	[3, 'Berserker', 1, 1, 41, 35, bg, , , dummy],
@@ -462,7 +461,10 @@ var HEROES_RAW = [
 	[38, 'Sunkeeper', 1, 1, 41, 35, bg, , , dummy],
 	[39, 'Tinkerer', 1, 1, 41, 35, bg, , , dummy],
 	[40, 'Voidwarden', 1, 1, 41, 35, bg, , , dummy],
+	[41, 'Anaphi', 1, 1, 41, 35, bg, , , dummy],
 	[42, 'Satha', 1, 1, 41, 35, bg, , , dummy],
+	[43, 'Cassandra', 1, 1, 41, 35, bg, , , dummy],
+	[44, 'Hail', 1, 1, 41, 35, bg, , , dummy],
  ];
 
 HEROES_LIST = FromRAWToLIST(HEROES_RAW);
