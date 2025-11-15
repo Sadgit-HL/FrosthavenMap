@@ -24,28 +24,19 @@ CustomInput_SetTexts[3] = 'Set Coins';
 CustomInput_SetTexts[4] = 'Set XP';
 
 function listsort(a, b) {
-    var nameA = a[1].title || "";
-    var nameB = b[1].title || "";
-    return nameA.localeCompare(nameB);
+	if (a[0] < b[0]) return -1;
+	if (a[0] > b[0]) return 1;
+	return 0;
 }
 
 function SortLIST(UnsortedObjectArray) {
-    // Convert object → array of [id, hero]
-    var entries = Object.entries(UnsortedObjectArray);
+	var SortedList = {};
 
-    // Sort by hero.title (NOT hero.name)
-    entries.sort(function (a, b) {
-        return a[1].title.localeCompare(b[1].title);
-    });
+	Object.keys(UnsortedObjectArray).sort().forEach(function (key) {
+		SortedList[key] = UnsortedObjectArray[key];
+	});
 
-    // Build a new sorted object with original IDs preserved
-    var SortedList = {};
-    for (var i = 0; i < entries.length; i++) {
-        var id = entries[i][0];
-        SortedList[id] = entries[i][1];
-    }
-
-    return SortedList;
+	return SortedList;
 }
 
 function FromRAWToLIST(RAWArray) {

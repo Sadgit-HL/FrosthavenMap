@@ -125,23 +125,15 @@ function AddLine_Hero() {
 }
 
 function Create_HeroListValues() {
-    var html = addOption('Clear', '', 'UnSet_Hero(this);');
-
-    // Convert object → array and sort alphabetically by title
-    var heroesSorted = Object.values(HEROES_LIST).sort((a, b) => 
-        a.title.localeCompare(b.title)
-    );
-
-    // Loop through sorted array
-    heroesSorted.forEach(hero => {
-        var additionalText = '';
-        if (heroLine.DisplayExpansionNameInSelect == true) {
-            additionalText = '- ' + hero.expansion;
-        }
-        html += addOption(hero.title + ' ' + additionalText, '', 'Set_Hero(this, \'' + hero.id + '\')');
-    });
-
-    return html;
+	var html = addOption('Clear', '', 'UnSet_Hero(this);');
+	Object.keys(HEROES_LIST).forEach(item => {
+		var additionalText = ''
+		if (heroLine.DisplayExpansionNameInSelect == true) {
+			additionalText = '- ' + HEROES_LIST[item].expansion;
+		}
+		html += addOption(HEROES_LIST[item].title + ' ' + additionalText, '', 'Set_Hero(this, \'' + item + '\')');
+	});
+	return html;
 }
 
 function Set_Hero(element, value) {
