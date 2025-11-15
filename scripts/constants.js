@@ -447,7 +447,7 @@ var HEROES_RAW = [
 	[24, 'Nightshroud', 1, 1, 41, 35, bg, , , dummy],
 	[25, 'Shackles', 1, 1, 41, 35, bg, , , dummy],
 	[26, 'Meteor', 1, 1, 41, 35, bg, , , dummy],
-	[27, 'Plaque Herald', 1, 1, 41, 35, bg, , , dummy],
+	[27, 'Plagueherald', 1, 1, 41, 35, bg, , , dummy],
 	[28, 'Quartermaster', 1, 1, 41, 35, bg, , , dummy],
 	[29, 'Red Guard', 1, 1, 41, 35, bg, , , dummy],
 	[30, 'Shards', 1, 1, 41, 35, bg, , , dummy],
